@@ -1,7 +1,9 @@
 #ifndef DICT_H
 #define DICT_H
 
-#define TABLE_SIZE 100
+#define TABLE_SIZE 401
+
+#define LEN(arr) ((int)(sizeof(arr) / sizeof(arr)[0]))
 
 /**
  * Structure to represent an entry in the hash table
